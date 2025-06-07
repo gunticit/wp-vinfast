@@ -16,7 +16,7 @@ services:
   wordpress:
     image: wordpress:6.0.2-php7.4-apache
     platform: linux/amd64
-    container_name: wp_web
+    container_name: wp_vinfast
     depends_on:
       - db
     ports:
